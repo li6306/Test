@@ -6,9 +6,14 @@ namespace CmdTest
 {
     public class ClassA
     {
-        public static void cons()
+        public static void Error()
         {
-            Console.WriteLine("Null");
+            Console.WriteLine("Err");
+        }
+
+        protected static int Sum(int n, int m)
+        {
+            return n + m;
         }
     }
 }
