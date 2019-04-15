@@ -25,7 +25,12 @@ namespace CmdTest
         }
         protected internal static int Except(int n, int m)
         {
-            return n - m;
+            return n / m;
+        }
+
+        internal int Remainder(int n, int m)
+        {
+            return n % m;
         }
     }
 }
