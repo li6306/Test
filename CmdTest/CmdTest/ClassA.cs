@@ -11,9 +11,21 @@ namespace CmdTest
             Console.WriteLine("Err");
         }
 
-        protected static int Sum(int n, int m)
+        public static int Sum(int n, int m)
         {
             return n + m;
+        }
+        protected static int Difference(int n, int m)
+        {
+            return n - m;
+        }
+        internal static int Multiply(int n, int m)
+        {
+            return n - m;
+        }
+        protected internal static int Except(int n, int m)
+        {
+            return n - m;
         }
     }
 }
