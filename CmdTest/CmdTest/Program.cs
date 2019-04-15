@@ -2,11 +2,11 @@
 
 namespace CmdTest
 {
-    class Program
+    class Program:ClassA
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            cons();
             Console.ReadKey();
         }
         public void A() {
