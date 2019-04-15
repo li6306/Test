@@ -12,5 +12,9 @@ namespace CmdTest
         public void A() {
             Console.WriteLine("GitHub is Good！");
         }
+
+        public int B(int m,int n) {
+            return m + n;
+        }
     }
 }
