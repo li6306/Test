@@ -6,7 +6,18 @@ namespace CmdTest
     {
         static void Main(string[] args)
         {
-            cons();
+            string a,b = "";
+            a = Console.ReadLine();
+            b = Console.ReadLine();
+            if (!string.IsNullOrEmpty(a) && !string.IsNullOrEmpty(b))
+            {
+                Console.WriteLine(a+b);
+            }
+            else
+            {
+                cons();
+            }
+
             Console.ReadKey();
         }
         public void A() {

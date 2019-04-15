@@ -8,7 +8,7 @@ namespace CmdTest
     {
         public static void cons()
         {
-            Console.WriteLine("Hello!");
+            Console.WriteLine("Null");
         }
     }
 }
